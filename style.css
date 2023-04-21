@@ -1,3 +1,165 @@
-*{
-   background-color: coral; 
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
+
+#navbar-pinterest {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 43px;
+
+    padding: 40px 10px 30px 15px;
+    font-size: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.findercontainer {
+    background-color: rgba(227, 227, 227, 0.803);
+    width: 70%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+
+}
+
+#containerlupa {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#imglupa {
+    width: 16px;
+    height: 16px;
+
+}
+
+.finder {
+    width: 93%;
+    border: none;
+    background-color: rgba(227, 227, 227, 0.803);
+
+}
+
+#Hoy {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+#EncabezadoInicio {
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icono:hover {
+    background-color: rgba(227, 227, 227, 0.803);
+}
+
+.imgpinterest {
+    width: 28px;
+    height: 28px;
+
+}
+
+#crear {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#crear img {
+    width: 24px;
+}
+
+
+
+
+#notifications {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 43px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#notifications:hover {
+    background-color: rgba(227, 227, 227, 0.803);
+}
+
+#message {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: 43px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#message:hover {
+    background-color: rgba(227, 227, 227, 0.803);
+}
+
+#profile-img {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+
+
+}
+
+#userarrow {
+    width: 24px;
+    height: 24PX;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#userarrow:hover {
+    background-color: rgba(227, 227, 227, 0.803);
+    cursor: pointer;
+}
+
+#content{
+    padding-top: 67px;
+    margin-left: 95px;
+    margin-right: 95px;
+    columns: 5 230px;
+}
+
+main img{
+    max-width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
