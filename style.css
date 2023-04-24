@@ -17,6 +17,7 @@
     top: 0;
     right: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .findercontainer {
@@ -155,7 +156,9 @@
     margin-left: 95px;
     margin-right: 95px;
     columns: 5 230px;
+    z-index: 1;
 }
+
 
 main img{
     max-width: 100%;
@@ -163,3 +166,57 @@ main img{
     margin-bottom: 10px;
 }
 
+.card-image{
+    position: relative;
+    display: flex;
+    
+}
+
+.buttoncontainer{
+    position: absolute;
+    right: 0;
+    opacity: 0;
+}
+
+.imgcontainer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    opacity: 0;
+}
+
+.imgcontainer img{
+    width: 30px;
+    background-color: rgba(227, 227, 227, 0.803);
+    margin-right: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.buttons{
+    
+    margin-right: 10px;
+    margin-top: 10px;
+    opacity: 1;
+    background-color: rgba(230,0,34,255);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 24px;
+    
+    
+    }
+
+.card-image:hover > .imgcontainer {
+    opacity: 1;
+}
+.card-image:hover > .buttoncontainer {
+    opacity: 1;
+}
+
+@media screen and (max-width: 681px) {
+    #content{
+        columns: 2 70px;
+    }
+}
